@@ -38,7 +38,7 @@ function tocaSomTrombeta(  ){
 }
 document.querySelector('.tecla_trombeta').onclick=tocaSomTrombeta;
 
-function tocaSomperereca(  ){
+function tocaSomPerereca(  ){
     document.querySelector('#som_tecla_perereca').play( );
 }
-document.querySelector('.tecla_perereca').onclick=tocaSomDinheiro;
+document.querySelector('.tecla_perereca').onclick=tocaSomPerereca;
