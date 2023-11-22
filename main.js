@@ -18,10 +18,10 @@ function tocaSomRisadas(  ){
 }
 document.querySelector('.tecla_risadas').onclick=tocaSomRisadas;
 
-function tocaSomErro(  ){
-    document.querySelector('#som_tecla_erro').play( );
+function tocaSomErrado(  ){
+    document.querySelector('#som_tecla_errado').play( );
 }
-document.querySelector('.tecla_erro').onclick=tocaSomErro;
+document.querySelector('.tecla_errado').onclick=tocaSomErrado;
 
 function tocaSomGrilo(  ){
     document.querySelector('#som_tecla_grilo').play( );
